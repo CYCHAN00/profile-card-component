@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-Kumbh-Sans bg-cyan-dark text-[18px];
+  }
+}
+
+@layer components {
+  .avator {
+    @apply absolute translate-y-5 top-1/2 left-1/2 -translate-x-1/2    bg-[url('/images/image-victor.jpg')] w-[96px] h-[96px] rounded-full  ring-[5px] ring-white;
+  }
+}
